@@ -1,0 +1,546 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 155vh;
+}
+
+.body {
+    margin: 0;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.61803;
+    color: #444;
+    text-align: left;
+    background-color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    width: 50%;
+}
+
+.header {
+    box-sizing: border-box;
+}
+
+.main {
+    box-sizing: border-box;
+}
+
+.footer {
+    box-sizing: border-box;
+}
+
+.comeco {
+    border-bottom: 1px solid #e8eaeb; 
+    margin-bottom: 6px
+}
+
+.promocao-container {
+    height: 60px;
+    width: 100%;
+}
+
+.promocao {
+  margin: auto;
+  width: 100%;
+  height: 100%;  
+}
+
+.promocao-button {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    cursor: pointer;
+    float: right;
+}
+
+    .promocao-button > .promocao-x {
+        color: #000;
+        font-size: 18px;
+        line-height: 1;
+        top: 0;
+        right: 5px;
+        position: absolute;
+        z-index: 1;
+        font-weight: 700;
+    }
+
+    .promocao-button::before {
+        box-sizing: border-box;
+    }
+
+.promocao-banner {
+    background-color: #a6fff8;
+    color: #111;
+    position: relative;
+    width: 100%;
+    height: 100%;  
+}
+
+    .promocao > .star {
+        position: absolute;
+        display: inline-block;
+        top: 5px;
+        line-height: 1;
+        font-size: 22px;
+        z-index: 1;
+        margin-left: 15px;
+    }
+
+        .promocao > .star::before{
+            content: "★";
+        }
+
+    .promocao-banner > .message {
+        padding-left: 3rem;
+        padding-right: 2rem;
+        padding-top: 5px;
+    }
+
+.barra-utilidade {
+    min-height: 45px;
+    background-color: #fff;
+    font-size: 12px;
+    position: relative;
+}
+
+.utility {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.utility > .logo {
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 120px;
+}
+
+.utility > .logo > .logo-text {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.utility > .logo > .logo-text > .brasil {
+    align-self: flex-end; 
+    font-size: 8px;
+    top: 4px;
+    line-height: 1;
+    color: #111;
+    position: absolute;
+}
+
+.godaddy {
+    margin-top: 3px;
+    height: 26px;
+    width: 94px;
+}
+
+.lingua {
+    align-self: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.itens {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.itens > .item {
+    background-color: transparent;
+    position: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    min-height: 42px;
+    padding: 0;
+    vertical-align: bottom;
+    opacity: 1;
+}
+
+.itens > .item > .botao {
+    padding: 0 10px;
+    height: 45px;
+    min-height: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #444;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.itens > .item > .botao:focus {
+    outline: none;
+}
+
+.itens-text {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #444;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.titulo {
+    color: #444;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.56578rem;
+    line-height: 2.88651rem;
+    text-align: center;
+    margin: 0;
+}
+
+.icone-telefone {
+    font-size: 16.5px;
+    top: 2px;
+}
+
+.numero-telefone {
+    font-weight: bold;
+    padding-left: 3px;
+    font-size: 12px;
+}
+
+.numero-telefone::after {
+    content: "";
+    position: absolute;
+    margin-left: 7px;
+    margin-top: -0.1px;
+    top: 18px;
+    border-top: 0px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #000;
+    transform: rotate(-135deg);
+}
+
+.blog {
+    padding: 0 22px;
+}
+
+.ajuda {
+    padding-right: 10px;
+}
+
+.entrar-text {
+    font-weight: bold;
+    padding-left: 3px;
+    font-size: 12px;
+}
+
+.entrar-text::after {
+    content: "";
+    position: absolute;
+    margin-left: 7px;
+    margin-top: -0.1px;
+    top: 18px;
+    border-top: 0px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #000;
+    transform: rotate(-135deg);
+}
+
+.linha {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 16px;
+    margin: 0 10px;
+    width: 1px;
+    position: relative;
+    background-color: #EDEDED;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+}
+
+.underline {
+    width: 9%;
+}
+
+    .underline > .menu-container {
+        height: 100%;
+        display: flex;
+        width: fit-content;
+    }
+
+        .underline > .menu-container > .menu {
+            cursor: pointer;
+        }
+
+            .underline > .menu-container > .promocoes {
+                cursor: pointer;
+                justify-content: flex-end;
+                display: none;
+            }
+
+.inicio {
+    height: 70px;
+    display: flex;
+}
+
+.pesquisa-container {
+    display: flex;
+    width: 100%;
+}
+
+.pesquisa {
+    align-self: center;
+    height: 40px;
+    display: flex;
+    width: 100%;
+}
+
+    .pesquisa > .placeholder {
+        width: 51%;
+        border: 1px solid #aab7c2;
+        border-radius: 6px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        padding: 6px 12px;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+        .pesquisa > .placeholder:focus {
+            outline: none;
+            border: 1px solid #000;
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .pesquisa > .placeholder::placeholder {
+            color: #aab7c2;
+        }
+
+    .pesquisa > .pesquisar {
+        width: 246px;
+        border-radius: 6px;
+        border: 1px solid transparent;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        background-color: #00a63f;
+        color: #fff;
+        font-weight: bold;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+        .pesquisa > .pesquisar:hover {
+            background-color: #267326;
+        }
+
+.dominio {
+    padding-left: 11px;
+    color: #1976d2;
+    display: flex;
+    align-items: center;
+}
+
+    .dominio > .dominio-container {
+        text-decoration: none;
+        color: #1976d2;
+        cursor: pointer;
+        margin-right: 10px;
+        float: left;
+        display: flex;
+    }
+
+        .dominio > .dominio-container:hover {
+            color: #002699;
+        }
+
+        .dominio > .dominio-container > .imagem {
+            padding-right: 9px;
+            padding-top: 4px;
+            height: 19px;
+        }
+
+.segredo {
+    position: absolute;
+    margin-left: 26px;
+}
+
+.segredo2 {
+    position: absolute;
+    display: none;
+}
+
+.alinhar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.imagens-container {
+    height: 440px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.container-imagem {
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.imagem-esquerda {
+    background-image: url("https://img1.wsimg.com/Sitecore/4/0/SSL-BR-Split-right-desktop.jpg");
+    margin-left: 10px;
+}
+
+
+.imagem-direita {
+    background-image: url("https://img1.wsimg.com/Sitecore/F/0/MCXMO-44991-BR-HP-split-desktop.jpg");
+    margin-right: 10px;
+}
+
+.conteudo {
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-imagem {
+    background-color: #1976d2;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    width: 220.5px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.botao-imagem:hover {
+    background-color: #135FAA;
+}
+
+.imagem-direita > .conteudo > .botao-imagem {
+    width: 239.15px;
+    margin-top: 0;
+}
+
+.imagem-direita > .conteudo > .titulo {
+    width: 65%;
+}
+
+.aviso {
+    color: #111;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+@media (max-width: 1200px) {
+    .pesquisa > .placeholder {
+        width: 35%;
+    }
+
+    .dominio {
+        display: unset;
+        align-self: center;
+        width: 90%;
+    }
+
+    .container {
+        width: 126vh;
+    }
+
+    .underline {
+        width: 11%;
+    }
+}
+
+@media (max-width: 992px) {
+    .comeco {
+        margin-bottom: 0;
+    }
+
+    .alinhar{
+        width: 78%;
+    }
+
+    .pesquisa > .placeholder {
+        width: 16.5%;
+    }
+
+    .cabecalho{
+        display: unset;
+    }
+
+    .underline {
+        height: 100%;
+    }
+
+    .underline > .menu-container > .promocoes {
+        display: flex;
+    }
+
+    .container {
+        width: 100vh;
+    }
+
+    .lingua {
+        display: none;
+    }
+
+    .linha {
+        display: none;
+    }
+
+    .segredo {
+        display: none;
+        font-size: 16px;
+    }
+
+    .segredo2 {
+        display: block;
+        margin-left: 26px;
+        font-size: 16px;
+    }
+
+    .underline > .menu-container {
+        width: 100vh;
+    }
+}
